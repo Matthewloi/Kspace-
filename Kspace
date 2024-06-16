@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vlog e Fã Club</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #000;
+            color: #fff;
+        }
+        header {
+            background-color: #111;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #f00;
+        }
+        header h1 {
+            margin: 0;
+            color: #f00;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #222;
+            padding: 10px 0;
+            border-bottom: 2px solid #f00;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background-color: #f00;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #111;
+            text-align: center;
+            padding: 10px;
+            border-top: 2px solid #f00;
+        }
+        .card {
+            background-color: #222;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+        }
+        .card h2 {
+            color: #f00;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Meu Vlog e Fã Club</h1>
+    </header>
+    <nav>
+        <a href="#vlog">Vlog</a>
+        <a href="#interacoes">Interações</a>
+        <a href="#engajamento">Engajamento</a>
+        <a href="#blog">Blog</a>
+    </nav>
+    <section id="vlog">
+        <div class="card">
+            <h2>Vlog</h2>
+            <p>Bem-vindo ao meu vlog! Aqui, você encontrará vídeos sobre os mais diversos assuntos relacionados ao mundo do K-pop.</p>
+        </div>
+    </section>
+    <section id="interacoes">
+        <div class="card">
+            <h2>Interações</h2>
+            <p>Participe das nossas discussões e interaja com outros fãs nos comentários e nas redes sociais.</p>
+        </div>
+    </section>
+    <section id="engajamento">
+        <div class="card">
+            <h2>Engajamento</h2>
+            <p>Engaje-se com nosso conteúdo e participe de eventos e concursos exclusivos para membros do fã club.</p>
+        </div>
+    </section>
+    <section id="blog">
+        <div class="card">
+            <h2>Blog</h2>
+            <p>Leia nossos posts sobre os últimos lançamentos, notícias e curiosidades do universo K-pop.</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Meu Vlog e Fã Club. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
